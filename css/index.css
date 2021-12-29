@@ -1,18 +1,25 @@
-.logo{
-    max-width: 8%;
-    margin: -5%;
+.logo {
+  max-width: 8%;
+  margin: -5%;
 }
 
 .bar-logo {
-   max-width: 45%;
+  max-width: 45%;
 }
 
 .bar-png {
-    max-width: 10%;
-    padding: 10px;
+  max-width: 10%;
+  padding: 10px;
 }
 
 .info {
-    color: white;
-    padding-left: 15%;
+  color: white;
+  padding-left: 15%;
+}
+@media (min-width: 768px) {
+  .bar-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
