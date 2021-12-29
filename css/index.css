@@ -1,0 +1,18 @@
+.logo{
+    max-width: 8%;
+    margin: -5%;
+}
+
+.bar-logo {
+   max-width: 45%;
+}
+
+.bar-png {
+    max-width: 10%;
+    padding: 10px;
+}
+
+.info {
+    color: white;
+    padding-left: 15%;
+}
