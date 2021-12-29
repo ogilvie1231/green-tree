@@ -1,6 +1,15 @@
+body {
+    position: relative;
+}
 .logo {
   max-width: 8%;
   margin: -5%;
+}
+
+.brand-logo {
+    width: 70%;
+    margin-bottom: -10%;  
+    margin-top: -8%;  
 }
 
 .bar-logo {
@@ -16,6 +25,11 @@
   color: white;
   padding-left: 15%;
 }
+.flavor {
+    color: white;
+    margin-bottom: 100%;
+    font-size: larger;
+}
 @media (min-width: 768px) {
   .bar-img {
     display: block;
@@ -25,4 +39,39 @@
   .info-text {
       font-size: xx-large;
   }
+  section.cta {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url("https://images.unsplash.com/photo-1616065787198-a41b9ab94ef2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
+    background-position: center;
+    background-size: cover;
+    
+  }
 }
+@media (max-width: 576px) {
+    .bar-png {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40%;
+      }
+      .bar-logo {
+          max-width: 100%;
+      }
+      section.cta {
+        position: relative;
+        padding: 15rem 0;
+        /* background-image: url("https://www.fillmurray.com/g/200/300"); */
+        background-position: center;
+        background-size: cover;
+        width: 120%;
+      }
+      .brand-logo {
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px; */
+        max-height: 400px;
+        margin: auto;
+      }
+  }
